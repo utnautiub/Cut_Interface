@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="login.css" />
+		<script defer src="login.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid row">
+			<div class="col-6 form-login">
+				<img src="../access/image/img-logo.svg" alt="logo" />
+				<form action="#">
+					<h1>ログイン</h1>
+					<h6>すでに登録済みの方</h6>
+					<div class="form-input">
+						<label for="username">メールアドレス</label>
+						<div class="input-layout">
+							<input id="username" type="text" />
+						</div>
+					</div>
+					<div class="form-input">
+						<label for="password">パスワード</label>
+						<div class="input-layout">
+							<input id="password" type="password" />
+							<span class="bi bi-eye field-icon toggle-password"></span>
+						</div>
+					</div>
+					<div class="form-remember-forgot">
+						<div class="remember">
+							<input
+								type="checkbox"
+								name="remember-login"
+								id="remember-login"
+							/>
+							<label for="remember-login">このアカウントを記憶する</label>
+						</div>
+						<div class="forgot">
+							<a href="../forgot-pass/forgot-pass.html"
+								>パスワードをお忘れの方</a
+							>
+						</div>
+					</div>
+					<div class="button-login">
+						<button type="submit" class="btn btn-primary form-control mt-5">
+							ログイン
+						</button>
+					</div>
+					<div class="create-account-label d-flex">
+						<hr class="line" />
+						<span class="text">まだ登録されていない方</span>
+						<hr class="line" />
+					</div>
+					<div class="button-create">
+						<button type="button" class="btn form-control">
+							<a href="../register/register.html">アカウントを作成</a>
+						</button>
+					</div>
+					<div class="note">
+						<p>多くの企業があなたのエントリーを待っています</p>
+					</div>
+				</form>
+			</div>
+			<div class="col-6 image">
+				<div class="title-image">
+					<img src="../access/image/nike-4-logo-svg-vector.svg" alt="logo" />
+					<p>求職者用</p>
+				</div>
+				<img src="../access/image/img-login.png" alt="image-right" />
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile</title>
+		<!-- BS5 -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<!-- Icon font awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="profile.css" />
+		<!-- JS -->
+		<script defer src="profile.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid p-0">
+			<!-- Header -->
+			<div class="header">
+				<img src="../access/image/logo-profile.png" alt="logo" />
+				<div class="account-header">
+					<a href="#">
+						<img src="../access/image/avt.png" alt="avt" />
+						<p>Tài Khoản</p>
+					</a>
+				</div>
+			</div>
+			<!-- Content -->
+			<div class="content">
+				<div class="menu">
+					<div class="avt">
+						<img src="../access/image/avt.png" alt="avt" id="photo" />
+						<input type="file" id="file" />
+						<label for="file" id="uploadbtn"
+							><i class="fa-solid fa-camera"></i
+						></label>
+					</div>
+					<div class="name">
+						<p>Nguyễn Văn A</p>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-solid fa-user"></i>
+							<p>Thông tin cá nhân</p>
+						</a>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-regular fa-newspaper"></i>
+							<p>Chính sách hệ thống</p>
+						</a>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-solid fa-arrow-rotate-right fa-flip-horizontal"></i>
+							<p>Nhật ký hoạt động</p>
+						</a>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-regular fa-bookmark"></i>
+							<p>Đơn hàng đã lưu</p>
+						</a>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-solid fa-lock"></i>
+							<p>Đổi mật khẩu</p>
+						</a>
+					</div>
+					<div class="option-group">
+						<a href="#">
+							<i class="fa-solid fa-right-from-bracket"></i>
+							<p>Đăng xuất</p>
+						</a>
+					</div>
+				</div>
+				<div class="info-menu">
+					<div class="title-info-menu">
+						<p>Thông tin cá nhân</p>
+					</div>
+					<div class="input-value-group">
+						<label for="name">Họ và tên</label>
+						<input
+							type="text"
+							value="Nguyễn Văn A"
+							name="name"
+							id="name"
+							readonly
+						/>
+					</div>
+					<div class="input-value-group">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							value="nguyenVanA@gmail.com"
+							name="email"
+							id="email"
+							readonly
+						/>
+					</div>
+					<div class="input-value-group">
+						<label for="number-phone">Số Điện Thoại</label>
+						<input
+							type="text"
+							value="0936789626"
+							name="number-phone"
+							id="number-phone"
+							readonly
+						/>
+					</div>
+					<div class="input-value-group">
+						<label for="address">Địa chỉ</label>
+						<input
+							type="text"
+							value="Hải Phòng"
+							name="address"
+							id="address"
+							readonly
+						/>
+					</div>
+					<div class="button-submit">
+						<input type="button" value="CHỈNH SỬA" />
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="footer">
+				<div class="logo-footer">
+					<img src="../access/image/only-logo-profile.png" alt="logo" />
+					<p>EI Germany</p>
+				</div>
+				<div class="infomation">
+					<div class="location">
+						<i class="fa-solid fa-location-dot"></i>
+						<div class="info-location">
+							<h3 class="text-uppercase">
+								Công Ty Cổ Phần Giáo Dục Quốc Tế EI GERMANY
+							</h3>
+							<p>Số 18 ngõ 80 Trung Kính, Cầu Giấy, Hà Nội</p>
+							<h3>VPDD tại Đức</h3>
+							<p>Beethovenstrabe 14, 06111 Halle (Saale), Đức</p>
+							<p>+49 348 8086711</p>
+						</div>
+					</div>
+					<div class="email-phone">
+						<div class="email">
+							<a href="#">
+								<i class="fa-regular fa-envelope"></i>
+								<div class="label-email">
+									<p>Email</p>
+									<p>contact@eigermany.vn</p>
+								</div>
+							</a>
+						</div>
+						<div class="phone">
+							<a href="#">
+								<i class="fa-solid fa-phone"></i>
+								<div class="label-phone">
+									<p>Phone</p>
+									<p>0966 886 092</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="fanpage">
+						<div class="logo-title">
+							<i class="fa-brands fa-facebook"></i>
+							<p class="text-uppercase">Fanpage</p>
+						</div>
+						<div class="map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.417648966802!2d105.79320027595485!3d21.015968488216416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab59b16e3303%3A0x6699e99befb62e9a!2zMTggTmcuIDgwIFAuIFRydW5nIEvDrW5oLCBZw6puIEhvw6AsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1700464868617!5m2!1svi!2s"
+								width="180"
+								height="110"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+					<div class="location-1">
+						<div class="logo-title">
+							<i class="fa-solid fa-location-dot"></i>
+							<p class="text-uppercase">Location</p>
+						</div>
+						<div class="map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.417648966802!2d105.79320027595485!3d21.015968488216416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab59b16e3303%3A0x6699e99befb62e9a!2zMTggTmcuIDgwIFAuIFRydW5nIEvDrW5oLCBZw6puIEhvw6AsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1700464868617!5m2!1svi!2s"
+								width="180"
+								height="110"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+/* Reset các giá trị mặc định của select */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+}
+
+/* Định dạng cho phần tử select */
+.custom-select {
+	position: relative;
+	width: 100%;
+	max-width: 300px; /* Đặt chiều rộng của select */
+	margin: 10px 0;
+}
+
+/* Tạo giao diện select tùy chỉnh */
+.custom-select::after {
+	content: "\25BC"; /* Mã Unicode của mũi tên xuống */
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+/* Định dạng khi select được chọn */
+.custom-select select:focus {
+	outline: none;
+}
+
+/* Định dạng option trong select */
+.custom-select select option {
+	background-color: white;
+	color: #333;
+	font-size: 16px;
+	padding: 8px 12px;
+}
+
+/* Định dạng khi hover vào option */
+.custom-select select option:hover {
+	background-color: #007bff;
+	color: white;
+}

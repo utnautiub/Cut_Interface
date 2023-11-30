@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reset Password</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="reset-pass.css" />
+		<script defer src="reset-pass.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid row">
+			<div class="col-6 form-login">
+				<img src="../access/image/img-logo.svg" alt="logo" />
+				<form action="#">
+					<h1>パスワード再設定</h1>
+					<h6>再設定いパスワードを設定します。</h6>
+					<div class="form-input">
+						<label for="password">新しいパスワード</label>
+						<div class="input-layout">
+							<input
+								id="password"
+								type="password"
+								placeholder="入力してください"
+							/>
+							<span class="bi bi-eye field-icon toggle-password"></span>
+						</div>
+					</div>
+					<div class="form-input">
+						<label for="password">新しいパスワード（確認）</label>
+						<div class="input-layout">
+							<input
+								id="password"
+								type="password"
+								placeholder="入力してください"
+							/>
+							<span class="bi bi-eye field-icon toggle-password"></span>
+						</div>
+					</div>
+
+					<div class="button-login">
+						<button type="submit" class="btn btn-primary form-control mt-5">
+							保存
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-6 image">
+				<div class="title-image">
+					<img src="../access/image/nike-4-logo-svg-vector.svg" alt="logo" />
+					<p>求職者用</p>
+				</div>
+				<img src="../access/image/img-login.png" alt="image-right" />
+			</div>
+		</div>
+	</body>
+</html>

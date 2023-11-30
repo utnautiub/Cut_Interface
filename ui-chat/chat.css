@@ -1,0 +1,395 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Header facebook */
+.header {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.header .logo-search {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 400px;
+	padding: 0 14px;
+}
+
+.header .navigation {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+
+.header .group-profile {
+	display: flex;
+	padding: 0 14px;
+	align-items: center;
+	height: 100%;
+	width: 400px;
+	justify-content: end;
+}
+
+.header .logo-search .logo {
+	font-size: 40px;
+}
+
+/* Search */
+.search-header {
+	display: flex;
+	align-items: center;
+	border: #f0f2f5 solid 1px;
+	background-color: #f0f2f5;
+	border-radius: 50px;
+	width: 250px;
+	margin-left: 8px;
+}
+
+.search-header i {
+	font-size: 14px;
+	color: #65676b;
+	padding: 0 10px;
+}
+
+.search-header input {
+	border: none;
+	outline: none;
+	background-color: #f0f2f5;
+	padding: 5px 0px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+/* Navigation */
+.navigation-header {
+	display: flex;
+	align-items: center;
+}
+
+.navigation-header .sub-nav {
+	display: flex;
+	align-items: center;
+	padding: 12px 50px;
+}
+
+.navigation-header .sub-nav:hover {
+	border-bottom: blue solid 3px;
+}
+
+.navigation-header .sub-nav:hover i {
+	color: blue;
+}
+
+.navigation-header .sub-nav i {
+	color: #65676b;
+	font-size: 20px;
+}
+
+/* Group Profile */
+.profile-group {
+	display: flex;
+	align-items: center;
+}
+
+.profile-group .sub-group {
+	display: flex;
+	align-items: center;
+	background-color: #e3e7ec;
+	padding: 10px 1px;
+	border-radius: 50px;
+	margin-left: 8px;
+}
+
+.profile-group .sub-group i {
+	font-size: 20px;
+	color: black;
+	padding: 0 10px;
+}
+
+.profile-group .sub-group-avt {
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+
+.profile-group .sub-group-avt img {
+	border-radius: 50%;
+}
+
+/* Chat container */
+
+.content {
+	display: flex;
+}
+
+.content .list-mes {
+	width: 20%;
+}
+
+.content .list-mes .title-option {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+.list-mes .title-option p {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.list-mes .title-option i {
+	font-size: 20px;
+	color: #65676b;
+	padding: 8px 10px;
+	background-color: #d8dadf;
+	border-radius: 50%;
+}
+
+.list-mes .search-mes {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	border-radius: 50px;
+	margin: 10px 20px;
+	background-color: #d8dadf;
+}
+
+.list-mes .search-mes i {
+	font-size: 18px;
+	color: #65676b;
+	padding: 0 2px;
+}
+
+.list-mes .search-mes input {
+	border: none;
+	outline: none;
+	background-color: #d8dadf;
+	padding: 0px 10px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.list-mes .select-mes-option {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.list-mes .select-mes-option a {
+	text-decoration: none;
+	color: #65676b;
+	font-size: 16px;
+	padding: 0 10px;
+}
+
+.list-mes .select-mes-option a:hover {
+	color: blue;
+}
+
+.list-mes .select-mes {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.list-mes .select-mes:hover {
+	background-color: #e3e7ec;
+	border-radius: 8px;
+}
+
+.list-mes .select-mes img {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+.list-mes .info-mes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10px;
+}
+
+.list-mes .select-mes h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.list-mes .select-mes p {
+	margin: 0;
+	font-size: 14px;
+}
+
+.content .conversation {
+	width: 80%;
+}
+
+.conversation {
+	display: flex;
+}
+
+.conversation .main-chat {
+	width: 75%;
+}
+
+.conversation .info-chat {
+	width: 25%;
+}
+
+.info-chat {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	padding: 28px;
+}
+
+.info-chat .avt-info-chat {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.info-chat .avt-info-chat img {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #ccc;
+}
+
+.info-chat .name-chat p {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.info-chat .status-chat {
+	margin-bottom: 18px;
+}
+
+.info-chat .status-chat p {
+	margin: 0;
+	font-size: 12px;
+	color: #65676b;
+}
+
+.info-chat .option-chat {
+	display: flex;
+	align-items: center;
+}
+
+.info-chat .option-chat .bell-option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-chat .option-chat .bell-option i {
+	font-size: 12 px;
+	color: black;
+	background-color: #d8dadf;
+	padding: 10px 8px;
+	border-radius: 50px;
+}
+
+.info-chat .option-chat .bell-option i:hover {
+	background-color: #ccc;
+}
+
+.info-chat .option-chat .bell-option p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.main-chat {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main-chat .header-chat {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.main-chat .header-chat .avt-name-status {
+	display: flex;
+	align-items: center;
+}
+
+.header-chat .avt-name-status img {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #ccc;
+}
+
+.header-chat .avt-name-status .name-status {
+	margin-left: 10px;
+}
+
+.header-chat .avt-name-status .name-status h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header-chat .avt-name-status .name-status p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.header-chat .option-in-chat {
+	display: flex;
+	align-items: center;
+}
+
+.header-chat .option-in-chat i {
+	color: #018151;
+	font-size: 20px;
+	padding: 0 10px;
+}
+
+.bottom-chat {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.bottom-chat i {
+	color: #65676b;
+	font-size: 20px;
+	padding: 0 5px;
+}
+
+.bottom-chat .input-group-chat {
+	display: flex;
+	align-items: center;
+	background-color: #f0f2f5;
+	border-radius: 50px;
+	width: 100%;
+}
+
+.bottom-chat .input-group-chat input {
+	border: none;
+	outline: none;
+	background-color: #f0f2f5;
+	padding: 5px 10px;
+	border-radius: 50px;
+	width: 100%;
+}

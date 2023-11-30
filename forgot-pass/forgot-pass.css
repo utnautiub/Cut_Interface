@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.form-login {
+	padding: 60px;
+}
+
+.form-login h1 {
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 86px;
+}
+
+.form-login h6 {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 24px 0 44px;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-layout {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin: 12px 0;
+}
+
+.form-input input {
+	width: 95%;
+	padding: 12px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+}
+
+.field-icon {
+	float: right;
+	margin-top: 14px;
+	position: absolute;
+	z-index: 2;
+}
+
+.form-remember-forgot {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 18px;
+}
+
+.remember {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.remember input[type="checkbox"] {
+	transform: scale(2);
+	outline: none;
+}
+
+label {
+	font-size: 1.25em;
+	margin: 0 0 0 14px;
+}
+
+.forgot {
+	text-align: right;
+}
+
+.forgot a {
+	text-decoration: none;
+	color: #513eb3;
+	font-size: 1.25em;
+}
+
+.button-login button {
+	font-weight: bold;
+	padding: 12px;
+	background-color: #513eb3;
+}
+
+.button-login button:hover {
+	background-color: #7465c2;
+}
+
+.create-account-label {
+	margin: 38px 0 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create-account-label span {
+	margin: 0 8px;
+}
+
+.line {
+	width: 90px;
+}
+
+.button-create button {
+	font-weight: bold;
+	padding: 12px;
+	background-color: white;
+	border: 1px solid #513eb3;
+}
+
+.button-create button:hover {
+	background-color: #dcd8f0;
+}
+
+.button-create button a {
+	text-decoration: none;
+	color: #513eb3;
+	font-weight: bold;
+}
+
+.note p {
+	text-align: center;
+	margin-top: 24px;
+	font-weight: bold;
+	color: #fa983d;
+}
+
+.image {
+	padding: 34px 8px 8px;
+	height: 98vh;
+}
+
+.image img {
+	border-radius: 8% 0 8% 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title-image {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Thêm dòng này */
+	position: absolute;
+	width: 48%;
+	padding: 0 20px;
+}
+
+.title-image img {
+	width: 120px;
+}
+
+.title-image p {
+	font-size: 24px;
+}
